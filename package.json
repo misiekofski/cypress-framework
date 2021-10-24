@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/misiekofski/cypress-framework#readme",
   "devDependencies": {
-    "cypress": "^8.6.0"
+    "cypress": "^8.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
