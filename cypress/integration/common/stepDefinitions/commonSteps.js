@@ -7,7 +7,7 @@ const homePage = new HomePage();
 const resultPage = new ResultPage();
 
 Given('I open Google homepage', () => {
-    cy.visit('https://www.google.com');
+    cy.visit('/');
 });
 
 Then('Title of web page is {string}', (title) => {
